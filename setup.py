@@ -40,7 +40,7 @@ def package_files(directory, ends_with):
                 paths.append(os.path.join('..', path, filename))
     return paths
 
-mjc_models_files = package_files('myosuite/envs/myo/assets/','.mjb')
+mjc_models_files = package_files('myosuite/envs/myo/assets/','.xml')
 
 
 if __name__ == "__main__":
